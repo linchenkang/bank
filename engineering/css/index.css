@@ -1,0 +1,756 @@
+.layout{
+	width: 100%;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+img{display: block;}
+
+
+/*header start*/
+#header{
+	height: 28px;
+	line-height: 28px;
+	background: #f4f4f4;
+	-overflow: hidden;
+}
+#header .left{
+	float: left;
+	overflow: hidden;
+	height: 28px;
+	line-height: 28px;
+}
+#header .left a{
+	float: left;
+	font-size: 12px;
+	color: #555;
+	text-decoration: none;
+}
+#header .left p{
+	width: 14px;
+	height: 12px;
+	background: url(../img/jihe.png) no-repeat ;
+	float: left;
+	margin: 8px 4px 0 0;
+}
+#header .right{
+	float: right;
+	-overflow: hidden;
+	height: 28px;
+	line-height: 28px;
+}
+#header .right ul li{
+	float: left;
+	font-size: 12px;
+	padding:0  10px 0 10px;
+	overflow: hidden;
+	text-align: center;
+}
+#header .right ul li h2{
+	font-weight: normal;
+}
+#header .right ul li a{
+	font-size: 12px;
+	color: #555555;
+	text-decoration: none;
+	float: left;
+}
+#header .right ul li p{
+	width: 18px;
+	height: 14px;
+	background: url(../img/jihe.png) no-repeat -20px 0;
+	float: left;
+	margin: 8px 4px 0 0;
+}
+#header .right ul li i{
+	font-size: 12px;
+	color: #ed1717;
+	float: left;
+	margin: 0 0 0 4px;
+	font-style: normal;
+}
+#header .right ul li b{
+	display: block;
+	width: 8px;
+	height: 4px;
+	background: url(../img/jihe.png) no-repeat 0 -30px;
+	float: right;
+	margin: 12px 0 0 4px;
+}
+ 
+.meun_main .meun_list{
+	
+	float: left;
+	border: 1px solid #DDDDDD;
+	position: absolute;
+	top: 27px;
+	
+}
+
+.meun_main .meun_list li{
+	
+	background: #fff;
+	line-height: 30px;
+	cursor: pointer;
+	height: 30px;
+}
+.meun_main{
+	position: relative;
+	height: 120px;
+	display: none;
+}
+.meun_main span.Arrow{
+	width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #FFFFFF;
+    position: absolute;
+    top: 18px;
+    
+    z-index: 10;
+    
+}
+/*header end*/
+
+/*header2 start*/
+#header2 .top{
+	margin-top: 28px;
+	overflow: hidden;
+}
+#header2 .top .logo{
+	float: left;
+}
+#header2 .top .logo ul li {
+	float: left;
+	padding: 0 10px 0 10px;
+	height: 60px;
+}
+#header2 .top .logo ul li img{
+	margin-top: 8px;
+}
+#header2 .top .logo ul li .line{
+	width: 2px;
+	height: 60px;
+	background: #dddddd;
+}
+#header2 .top .logo ul li p{
+	width: 100px;
+	height: 24px;
+	background: #ed1717;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 8px;
+}
+#header2 .top .logo ul li a{
+	font-size: 12px;
+	color: #555555;
+	text-decoration: none;
+}
+#header2 .search{
+	float: left;
+	width: 550px;
+	height: 42px;
+	border: 2px solid #ED1717;
+	line-height: 42px;
+	margin-left: 112px;
+}
+.scarch2{
+	float: left;
+	border-right: 1px solid #f0f0f0;
+	padding-left: 10px;
+}
+#header2 .search input,
+#header2 .search button{
+	display: block;
+	float: left;
+	border: 0;
+	
+	outline: 0;
+}
+
+#header2 .search button{
+	background:#ed1717;
+	height: 44px;
+	color: #FFFFFF;
+	font-size: 16px;
+	float: right;
+	width: 90px;
+	text-align: center;
+	line-height: 44px;
+}
+#header2 .search input{
+	width: 300px;
+	padding: 10px 0 0 0 ;
+}
+#header2 .scarch2 p1{
+	width: 8px;
+	height: 4px;
+	background: url(../img/jihe.png) no-repeat 0 -30px  ;
+	float: right;
+	margin: 18px 10px 0 4px;
+}
+#header2 .hot{
+	float: left;
+	margin-left: 112px;
+}
+#header2 .hot ul li{
+	float: left;
+	font-size: 12px;
+	color: #555555;
+	padding: 10px 6px 0 6px;
+}
+#header2 .hot ul li a{
+	text-decoration: none;
+	color: #555;
+}
+#header2 .hot ul li a.red{
+	color: #ED1717;
+}
+
+#header2 .bot{
+	margin-top: 24px;
+	overflow: hidden;
+}
+#header2 .bot .left{
+	background: #42baff;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	float: left;
+}
+#header2 .bot .left p{
+	width: 14px;
+	height: 12px;
+	background: url(../img/jihe.png) no-repeat -40px 0;
+	float: left;
+	margin: 14px 10px 0 16px ;
+}
+#header2 .bot .left a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#header2 .bot .meun{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 16px;
+}
+#header2 .bot .meun ul li{
+	float: left;
+	padding: 0 20px 0 20px;
+}
+#header2 .bot .meun ul li:hover a{
+	color: #ED1717;
+}
+#header2 .bot .meun ul li a{
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+}
+#header2 .bot .meun ul li a.red{
+	color: #ED1717;
+}
+/*header2 end*/
+
+/*banner start*/
+#banner{
+	background:#bfe7ff ;
+	position: relative;
+}
+#banner .meun{
+	background:#6cc9ff;
+	width: 200px;
+	position: absolute;
+	z-index: 10000;
+	top: 0;
+}
+#banner .meun ul li{
+	padding: 12px 19px;
+	border-bottom: 1px solid #84d2ff;
+	position: relative;
+	
+}
+#banner .meun ul li:hover a{
+	color: #000;
+}
+#banner .meun ul li h3{
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+#banner .meun ul li .more{
+	width: 6px;
+	height: 8px;
+	background: url(../img/jihe.png) no-repeat 0 -49px;
+	float: right;
+	margin-top: -14px;
+}
+
+#banner .meun ul li a{
+	color: #d3efff;
+	font-size: 12px;
+	text-decoration: none;
+}
+#banner .meun .nav{
+	border: 2px solid #6cc9ff;
+	border-left: 0;
+	width: 488px;
+	background: #FFFFFF;
+	position: absolute;
+	display: none;
+	left: 198px;
+	top: -2px;
+	padding: 20px 18px ;
+	z-index: 100;
+}
+#banner .meun .nav h2{
+	color: #42baff;
+	font-size: 12px;
+	font-weight: normal;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #42baff;
+}
+#banner .meun .nav ul li {
+	float: left;
+	border: 0;
+	padding: 6px 6px 0 0;
+}
+#banner .meun .nav ul li.blue a{
+	color: #42baff;
+}
+#banner .meun .nav ul li a{
+	color: #555555;
+	font-size: 12px;
+	
+}
+#banner .pic{
+	height: 455px;
+	position: relative;
+	overflow: hidden;
+}
+#banner .pic ul{
+	position: absolute;	
+	left: 0;
+}
+#banner .pic ul li{
+	width: 1200px;
+	float: left;
+	z-index: 1;
+}
+#btn{
+	position: absolute;
+	bottom: 20px;
+	right: 520px;
+	overflow: hidden;
+	z-index: 10;
+}
+#btn li{
+	width: 16px;
+	height: 16px;
+	background: #ccc;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	margin: 0 2px;
+	cursor: pointer;
+	background: url(../img/jihe.png) no-repeat -60px 0;
+}
+#btn li.active{
+	width: 18px;
+	height: 18px;
+	background: url(../img/jihe.png) no-repeat -80px 0;
+}
+/*banner end*/
+
+/*content start*/
+#content{
+	background: #f5f5f5;
+}
+#content .main1{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+#content .service{
+	margin-top: 20px;
+	background: #fff;
+	padding: 32px 20px;
+}
+#content .header{
+	overflow: hidden;
+}
+#content .header .gold{
+	font-size: 20px;
+	color: #000000;
+	float: left;
+}
+#content .header .line{
+	width: 942px;
+	height: 10px;
+	background: url(../img/heng.png) repeat-x;
+	float: left;
+	margin: 8px 10px 0 10px ;
+}
+#content .header .more{
+	float: right;
+}
+#content .header .more a{
+	
+	font-size: 14px;
+	color: #555;
+	text-decoration: none;
+	line-height: 26px;
+}
+#content .header .more p{
+	width: 12px;
+	height: 10px;
+	background: url(../img/jihe.png) no-repeat -100px 0;
+	float: right;
+	margin: 8px 0 0 6px;
+}
+
+
+#content .company{
+	overflow: hidden;
+}
+
+#content .company ul li {
+	border: 1px solid #dddddd;
+	width: 222px;
+	height: 365px;
+	color: #555555;
+	font-size: 12px;
+	text-decoration: none;
+	margin-top: 20px;
+	float: left;
+	margin-right: 10px;
+}
+#content .company ul li:hover h3{
+	color: #ED1717;
+}
+#content .company ul li.remove{
+	margin-right: 0px;
+}
+#content .company ul li a img{
+	padding: 20px 20px;
+}
+#content .company ul li span.red{
+	color: #ED1717;
+}
+#content .company ul li h3{
+	font-size: 14px;
+	padding: 0 0 6px 20px;
+}
+#content .company ul li p{
+	padding: 5px 0 5px 20px;
+}
+#content .company ul li div{
+	width: 80px;
+	height: 24px;
+	background: #91cdf1;
+	text-align: center;
+	line-height: 24px;
+	margin: 5px 0 5px 20px;
+	cursor: pointer;
+}
+#content .company ul li div a{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+#content .logo_banner{
+	padding: 20px 0;
+}
+#content .team{
+	background: #fff;
+	padding: 32px 20px;
+}
+#content .team .header{
+	
+	overflow: hidden;
+}
+#content .team .header .construction{
+	font-size: 20px;
+	color: #000000;
+	float: left;
+	padding-right: 18px;
+}
+#content .team .header ul li{
+	float: left;
+	line-height: 26px;
+	cursor: pointer;
+	margin: 0 14px 0 14px;
+}
+#content .team .header ul li.red_line{
+	color: #ED1717;
+	border-bottom: 2px solid #ED1717;
+}
+#li1{
+	display: block;
+}
+
+#content .team .pic{
+	overflow: hidden;
+	display: none;
+	
+}
+#content .team .pic ul li{
+	padding-top: 10px;
+	width: 372px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	float: left;
+}
+#content .team .pic ul li.remove{
+	padding-left: 0
+}
+#content .team .pic ul li.remove_liner{
+	border-right: 0;
+}
+#content .team .pic ul li.remove_lineb{
+	border-bottom: 0;
+	
+}
+#content .team .pic ul li a{
+	float: left;
+	padding-right: 10px;
+}
+#content .team .pic ul li h3{
+	font-size: 14px;
+	color: #555;
+	padding: 2px 0 8px 0;
+}
+#content .team .pic ul li p{
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+	color: #555;
+}
+#content .team .pic ul li span.red{
+	color: red;
+}
+
+#content .name{
+	height: 130px;
+	position: relative;
+	overflow: hidden;
+}
+#content .name ul{
+	position: absolute;
+}
+#content .name ul li{
+	float: left;
+	border: 1px solid #DDDDDD;
+	cursor: pointer;
+	width: 200px;
+}
+
+
+#content .new{
+	background: #fff;
+	margin-top: 20px;
+	padding: 32px 20px;
+}
+#content .new .header{
+	border-bottom: 1px solid #DDDDDD;
+}
+#content .new .header .people{
+	font-size: 14px;
+	color: #000;
+	float: left;
+	line-height: 26px;
+}#content .new .header .more{
+	float: right;
+}
+#content .new .header .more a{
+	color: #555;
+	float: left;
+	text-decoration: none;
+}
+#content .new .header .more p{
+	width: 12px;
+	height: 10px;
+	background: url(../img/jihe.png) no-repeat -100px 0;
+	float: right;
+	margin: 8px 0 0 6px;
+}
+
+#content .new table{
+	width: 100%;
+	margin-top: 10px;
+}
+#content .new table td{
+	padding: 10px 0 0 10px;
+	font-size: 12px;
+}
+#content .new table td span{
+	color: #ED1717;
+}
+#content .new table td a{
+	color: #0066cc;
+	text-decoration: none;
+}
+/*content end*/
+
+/*tail start*/
+#tail{
+	background: #464b51;
+	overflow: hidden;
+}
+#tail .left .title{
+	color: #dcdcdc;
+	font-size: 14px;
+	height: 30px;
+	overflow: hidden;
+}
+#tail .left .title p{
+	width: 22px;
+	height: 22px;
+	background: url(../img/jihe.png) no-repeat -18px -17px;
+	float: left;
+	margin-right: 10px;
+}
+#tail .left .title b{
+	width: 26px;
+	height: 26px;
+	background: url(../img/jihe.png) no-repeat -18px -43px;
+	float: left;
+	margin-right: 10px;
+}
+#tail .left .title i{
+	width: 26px;
+	height: 26px;
+	background: url(../img/jihe.png) no-repeat -18px -71px;
+	float: left;
+	margin-right: 10px;
+}
+#tail .left .title tt{
+	width: 23px;
+	height: 24px;
+	background: url(../img/jihe.png) no-repeat -44px -17px;
+	float: left;
+	margin-right: 10px;
+}
+#tail .left{
+	padding: 44px 0 40px 26px;
+	overflow: hidden;
+	float: left;
+}
+#tail .left ul{
+	float: left;
+	padding-right: 120px;
+}
+#tail .left ul.remove{
+	padding-right: 0;
+}
+#tail .left ul li{
+	padding: 7px 0 7px 0;
+}
+#tail .left ul li a{
+	color: #dcdcdc;
+	font-size: 14px;
+	text-decoration: none;
+}
+#tail .right{
+	float: right;
+	padding: 44px 0 40px 26px;
+}
+#tail .right .cx{
+	float: left;
+	padding: 0 24px 0 50px ;
+	border-left: 1px solid #4e4f52;
+}
+#tail .right .cx p{
+	text-align: center;
+	font-size: 12px;
+	color: #838383;
+}
+#tail .right .cx span{
+	width: 124px;
+	height: 40px;
+	background: url(../img/jihe.png) no-repeat -50px -46px;
+	display: block;
+	margin-bottom: 16px;
+}
+#tail .right .wx{
+	float: right;
+	padding: 0 24px 0 50px ;
+	border-left: 1px solid #4e4f52;
+}
+#tail .right .wx img{
+	padding-bottom: 10px;
+}
+#tail .right .wx p{
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+/*tail end*/
+
+/*footer start*/
+#footer .top{
+	margin-top: 20px;
+	overflow: hidden;
+}
+#footer .top{
+	text-align: center;
+}
+
+#footer .top a{
+	font-size: 12px;
+	color: #555;
+	text-decoration: none;
+}
+#footer .min{
+	margin-top: 15px;
+	overflow: hidden;
+}
+#footer .min .title{
+	float: left;
+}
+#footer .min ul li{
+	float: left;
+	padding: 0 3px 0 3px;
+}
+#footer .min ul li a{
+	font-size: 12px;
+	color: #555;
+	text-decoration: none;
+}
+#footer .btn{
+	margin-top: 15px;
+}
+#footer .btn p{
+	font-size: 12px;
+	color: #555555;
+	text-align: center;
+}
+/*footer end*/
+
+/*gotop start*/
+#gotop{
+	position: fixed;
+	right: 10px;
+	bottom: 50px;
+	
+}
+input{
+	outline: none;
+	
+}
+#back{
+	width: 76px;
+	height: 76px;
+	cursor: pointer;
+	display: none;
+}
+/*gotop end*/

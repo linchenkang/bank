@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,h1,h2,h3,h4,h5,h6,p,ol,dl,dt,dd,input,form,select,form,input,textarea{ 
+	margin:0; 
+	padding:0;
+	font-family:"Microsoft YaHei";
+}
+li{ list-style:none}
+a{ text-decoration:none}
+a:hover{ text-decoration:none}
+a:visited{
+	text-decoration: none;
+}
+img{ border:none; display:block;}
+.clear{ zoom:1}
+.clear:after{ content:""; display:block; clear:both;}

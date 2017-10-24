@@ -1,0 +1,14 @@
+img{
+  display: block;
+}
+.header{
+  height: 44px;
+  background: #c01920;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.header img{
+  height: 40px;
+  margin:0 auto
+}
